@@ -25,4 +25,26 @@ A simple PowerShell script that allows you to search Active Directory users by n
 
 ```powershell
 .\Disable-UserByName.ps1 -Name "Muhammed Ali"
+```
 
+4. Follow the on-screen prompts:
+
+```powershell
+Found 4 account(s):
+
+ 1) Muhammed.Ali
+ 2) Muhammed.Vali
+ 3) Muhammed.Hali
+ 4) Muhammed.test.Ali
+
+Enter ID(s) you wanna disable (comma-separated): 1,3
+
+Selected users to disable:
+
+ 1) Muhammed.Ali
+ 2) Muhammed.Hali
+
+Do you wanna disable these accounts? (Y/N): y
+Disabled: Muhammed.Ali
+Disabled: Muhammed.Hali
+```
